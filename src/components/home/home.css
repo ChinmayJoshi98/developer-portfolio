@@ -162,3 +162,32 @@
     font-size: 1.125rem;
   }
 }
+
+.custom-tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.custom-tooltip-text {
+  visibility: hidden;
+  opacity: 0;
+  width: 200px;
+  background-color: rgba(0, 0, 0, 0.75);
+  color: #fff;
+  text-align: center;
+  border-radius: 4px;
+  padding: 0.5rem;
+  position: absolute;
+  bottom: 125%; /* Position above the icon */
+  left: 50%;
+  transform: translateX(-50%);
+  transition: opacity 0.3s;
+  font-size: 0.875rem;
+  pointer-events: none;
+  z-index: 100;
+}
+
+.custom-tooltip:hover .custom-tooltip-text {
+  visibility: visible;
+  opacity: 1;
+}
