@@ -1,0 +1,2 @@
+# developer-portfolio
+This is my personal developer portfolio. A one-stop page to know all about me and my software development and visual design journeys and also some cool facts. Check it out!
