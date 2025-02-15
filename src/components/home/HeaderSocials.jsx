@@ -1,3 +1,4 @@
+//src/components/home/HeaderSocials.jsx
 import React from "react";
 
 const HeaderSocials = () => {
@@ -7,7 +8,6 @@ const HeaderSocials = () => {
         href="https://www.instagram.com/"
         className="home__social-link"
         target="_blank"
-        rel="noreferrer"
       >
         <i class="fa-brands fa-instagram"></i>
       </a>
