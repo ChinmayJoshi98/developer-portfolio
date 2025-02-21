@@ -71,3 +71,8 @@
     left: 0;
   }
 }
+
+.nav__logo img {
+  transform: scale(2.5);
+  transform-origin: center;
+}
