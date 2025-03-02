@@ -40,7 +40,7 @@ const About = () => {
 
             <div className="skills__data">
               <div className="skills__titles">
-                <h3 className="skills__name">API Integration & Automation</h3>
+                <h3 className="skills__name">API Integration - MuleSoft</h3>
                 <span className="skills__number">90%</span>
               </div>
               <div className="skills__bar">
