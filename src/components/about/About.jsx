@@ -10,16 +10,19 @@ const About = () => {
       <h2 className="section__title">About Me</h2>
 
       <div className="about__container grid">
-        <img src={Image} alt="" className="about__img" />
+        <img src={Image} alt="Chinmay Joshi" className="about__img" />
 
         <div className="about__data grid">
           <div className="about__info">
             <p className="about__description">
-              I am Bolby Doe, web developer from London, United Kingdom. I have
-              rich experience in web site design and building and customization,
-              also I am good at WordPress.
+              I am Chinmay Joshi, a Full Stack Developer with a passion for building scalable, efficient web applications. With extensive experience in React.js, Node.js, and API integration, and as a Certified MuleSoft Developer, I leverage cutting-edge technologies to deliver exceptional user experiences. I am committed to continuous learning and innovation, striving to be the best version of myself every day.
             </p>
-            <a href="" className="btn">
+            <a
+              href="/Chinmay_Joshi_Resume.pdf"
+              className="btn"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Download CV
             </a>
           </div>
@@ -27,10 +30,9 @@ const About = () => {
           <div className="about__skills grid">
             <div className="skills__data">
               <div className="skills__titles">
-                <h3 className="skills__name">Development</h3>
-                <span className="skills__number">90%</span>
+                <h3 className="skills__name">Full Stack Development</h3>
+                <span className="skills__number">95%</span>
               </div>
-
               <div className="skills__bar">
                 <span className="skills__percentage development"></span>
               </div>
@@ -38,10 +40,9 @@ const About = () => {
 
             <div className="skills__data">
               <div className="skills__titles">
-                <h3 className="skills__name">UI/UX design</h3>
-                <span className="skills__number">80%</span>
+                <h3 className="skills__name">API Integration & Automation</h3>
+                <span className="skills__number">90%</span>
               </div>
-
               <div className="skills__bar">
                 <span className="skills__percentage ui__design"></span>
               </div>
@@ -49,10 +50,9 @@ const About = () => {
 
             <div className="skills__data">
               <div className="skills__titles">
-                <h3 className="skills__name">Photography</h3>
-                <span className="skills__number">60%</span>
+                <h3 className="skills__name">DevOps & Cloud</h3>
+                <span className="skills__number">85%</span>
               </div>
-
               <div className="skills__bar">
                 <span className="skills__percentage photography"></span>
               </div>
