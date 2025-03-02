@@ -64,8 +64,9 @@
   display: block;
 }
 
+/* Updated skill bar percentages */
 .development {
-  width: 90%;
+  width: 95%;
   background-color: rgb(255, 209, 92);
 }
 
@@ -75,8 +76,14 @@
 }
 
 .photography {
-  width: 90%;
+  width: 85%;
   background-color: rgb(108, 108, 299);
+}
+
+/* New skill: Designing & Editing */
+.editing {
+  width: 90%;
+  background-color: rgb(66, 133, 244);
 }
 
 .about__boxes {
@@ -101,9 +108,9 @@
 
 @media screen and (max-width: 1024px) {
   .about__container {
-      grid-template-columns: 720px;
-      justify-content: center;
-      row-gap: 1.875rem;
+    grid-template-columns: 720px;
+    justify-content: center;
+    row-gap: 1.875rem;
   }
 
   .about__data::before {
@@ -120,7 +127,7 @@
 
   .about__box {
     flex-direction: column;
-    row-gap: .5rem;
+    row-gap: 0.5rem;
     text-align: center;
   }
 }
