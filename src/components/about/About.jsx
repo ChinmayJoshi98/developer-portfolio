@@ -15,7 +15,7 @@ const About = () => {
         <div className="about__data grid">
           <div className="about__info">
             <p className="about__description">
-              I am Chinmay Joshi, a Full Stack Developer with a passion for building scalable, efficient web applications. With extensive experience in React.js, Node.js, and API integration, and as a Certified MuleSoft Developer, I leverage cutting-edge technologies to deliver exceptional user experiences. I am committed to continuous learning and innovation, striving to be the best version of myself every day.
+              I am Chinmay Joshi, a Full Stack Developer with a flair for design. I specialize in building scalable, efficient web applications, seamless API integrations, and innovative DevOps solutions. I am also a Certified MuleSoft Developer and have a creative side—I’ve designed and edited YouTube thumbnails for renowned creators, including Samay Raina, who now has over 7 million subscribers. I blend technical excellence with creative design to deliver exceptional results.
             </p>
             <a
               href="/Chinmay_Joshi_Resume.pdf"
@@ -40,7 +40,7 @@ const About = () => {
 
             <div className="skills__data">
               <div className="skills__titles">
-                <h3 className="skills__name">API Integration - MuleSoft</h3>
+                <h3 className="skills__name">API Integration & Automation</h3>
                 <span className="skills__number">90%</span>
               </div>
               <div className="skills__bar">
@@ -55,6 +55,16 @@ const About = () => {
               </div>
               <div className="skills__bar">
                 <span className="skills__percentage photography"></span>
+              </div>
+            </div>
+
+            <div className="skills__data">
+              <div className="skills__titles">
+                <h3 className="skills__name">Designing & Editing</h3>
+                <span className="skills__number">90%</span>
+              </div>
+              <div className="skills__bar">
+                <span className="skills__percentage editing"></span>
               </div>
             </div>
           </div>
