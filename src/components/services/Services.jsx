@@ -1,3 +1,4 @@
+//src/components/services/Services.jsx
 import React from "react";
 import "./services.css";
 import Image1 from "../../assets/service-1.svg";
@@ -8,23 +9,23 @@ const data = [
   {
     id: 1,
     image: Image1,
-    title: "UI/UX design",
+    title: "Full Stack Development",
     description:
-      "Lorem ipsum dolor sit amet consectetuer adipiscing elit         aenean commodo ligula eget.",
+      "Designing and developing robust web applications using modern technologies like React.js and Node.js to ensure performance and scalability.",
   },
   {
     id: 2,
     image: Image2,
-    title: "Web Development",
+    title: "API Integration & Automation",
     description:
-      "Lorem ipsum dolor sit amet consectetuer adipiscing elit         aenean commodo ligula eget.",
+      "Creating secure and efficient API solutions, including MuleSoft integrations, to streamline business processes and improve system interoperability.",
   },
   {
     id: 3,
     image: Image3,
-    title: "Photography",
+    title: "Creative Design & Thumbnails",
     description:
-      "Lorem ipsum dolor sit amet consectetuer adipiscing elit         aenean commodo ligula eget.",
+      "Crafting engaging YouTube thumbnails and visual designs that capture attention and elevate brand presence.",
   },
 ];
 

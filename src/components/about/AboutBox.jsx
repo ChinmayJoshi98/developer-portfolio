@@ -23,16 +23,16 @@ const AboutBox = () => {
       <div className="about__box">
         <i className="about__icon icon-people"></i>
         <div>
-          <h3 className="about__title">30+</h3>
-          <span className="about__subtitle">Happy Clients</span>
+          <h3 className="about__title">3+</h3>
+          <span className="about__subtitle">Teams Mentored</span>
         </div>
       </div>
 
       <div className="about__box">
         <i className="about__icon icon-camera"></i>
         <div>
-          <h3 className="about__title">10+</h3>
-          <span className="about__subtitle">Creative Designs</span>
+          <h3 className="about__title">50+</h3>
+          <span className="about__subtitle">YouTube Thumbnails</span>
         </div>
       </div>
     </div>
