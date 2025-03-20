@@ -1,7 +1,7 @@
 //src/components/about/About.jsx
 import React from "react";
 import "./about.css";
-import Image from "../../assets/avatar-2.svg";
+import Image from "../../assets/suitPicCircular.png";
 import AboutBox from "./AboutBox";
 
 const About = () => {
@@ -31,7 +31,7 @@ const About = () => {
             <div className="skills__data">
               <div className="skills__titles">
                 <h3 className="skills__name">Full Stack Development</h3>
-                <span className="skills__number">95%</span>
+                <span className="skills__number">90%</span>
               </div>
               <div className="skills__bar">
                 <span className="skills__percentage development"></span>
@@ -41,7 +41,7 @@ const About = () => {
             <div className="skills__data">
               <div className="skills__titles">
                 <h3 className="skills__name">API Integration & Automation</h3>
-                <span className="skills__number">90%</span>
+                <span className="skills__number">80%</span>
               </div>
               <div className="skills__bar">
                 <span className="skills__percentage ui__design"></span>
@@ -51,7 +51,7 @@ const About = () => {
             <div className="skills__data">
               <div className="skills__titles">
                 <h3 className="skills__name">DevOps & Cloud</h3>
-                <span className="skills__number">85%</span>
+                <span className="skills__number">70%</span>
               </div>
               <div className="skills__bar">
                 <span className="skills__percentage photography"></span>
