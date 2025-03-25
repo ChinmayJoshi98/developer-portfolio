@@ -15,10 +15,17 @@ const About = () => {
         <div className="about__data grid">
           <div className="about__info">
             <p className="about__description">
-              I am Chinmay Joshi, a Full Stack Developer with a flair for design. I specialize in building scalable, efficient web applications, seamless API integrations, and innovative DevOps solutions. I am also a Certified MuleSoft Developer and have a creative side—I’ve designed and edited YouTube thumbnails for renowned creators, including Samay Raina, who now has over 7 million subscribers. I blend technical excellence with creative design to deliver exceptional results.
+              I am Chinmay Joshi, a Full Stack Developer with a flair for design.
+              I specialize in building scalable, efficient web applications,
+              seamless API integrations, and innovative DevOps solutions. I am
+              also a Certified MuleSoft Developer and have a creative side—I’ve
+              designed and edited YouTube thumbnails for renowned creators,
+              including Samay Raina, who now has over 7 million subscribers. I
+              blend technical excellence with creative design to deliver
+              exceptional results.
             </p>
             <a
-              href="/Chinmay_Joshi_Resume.pdf"
+              href="https://tinyurl.com/cjresume2"
               className="btn"
               target="_blank"
               rel="noopener noreferrer"
