@@ -1,3 +1,23 @@
+/* Updated Square Thumbnail Styles */
+.work__thumbnail {
+  position: relative;
+  width: 100%;
+  padding-top: 100%; /* Forces a 1:1 aspect ratio */
+  overflow: hidden;
+  background: #fff; /* Optional: set a background if needed */
+}
+
+.work__img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  object-fit: contain; /* Ensures the full image is visible */
+  transform: translate(-50%, -50%);
+}
+
+/* The rest of your CSS remains unchanged */
 .work__filters {
   display: flex;
   align-items: center;
@@ -70,6 +90,7 @@
   opacity: 0;
 }
 
+/* Default code button */
 .work__button {
   color: #fff;
   position: absolute;
@@ -88,7 +109,31 @@
   opacity: 0;
 }
 
-.work__card:hover .work__button {
+/* Live button positioned next to the default button */
+.work__button-live {
+  color: #fff;
+  position: absolute;
+  bottom: 1.5rem;
+  left: calc(1.5rem + 50px); /* Positioned 50px to the right of the code button */
+  font-size: var(--h3-font-size);
+  display: block;
+  background-color: #ffd15c;
+  height: 40px;
+  width: 40px;
+  cursor: pointer;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 42px;
+  transition: 0.3s;
+  opacity: 0;
+}
+
+.work__button-icon {
+  pointer-events: none;
+}
+
+.work__card:hover .work__button,
+.work__card:hover .work__button-live {
   opacity: 1;
 }
 
@@ -104,24 +149,24 @@
   }
 
   .work__container {
-      grid-template-columns: repeat(2, 330px);
-      justify-content: center;
-      row-gap: 1.875rem;
+    grid-template-columns: repeat(2, 330px);
+    justify-content: center;
+    row-gap: 1.875rem;
   }
 }
 
 @media screen and (max-width: 768px) {
   .work__container {
-      grid-template-columns: 310px;
+    grid-template-columns: 310px;
   }
 
   .work__filters {
-    row-gap: .25rem;
+    row-gap: 0.25rem;
   }
 }
 
 @media screen and (max-width: 350px) {
   .work__container {
-      grid-template-columns: 1fr;
+    grid-template-columns: 1fr;
   }
 }

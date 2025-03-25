@@ -24,7 +24,7 @@ const Data = [
     icon: "icon-briefcase",
     year: "Aug 2024 – Present",
     title: "Full Stack Developer - Graduate Assistant",
-    desc: "Engineered a MERN stack hiring portal with UIC Shibboleth integration, boosting performance by 30%.",
+    desc: "University of Illinois, Chicago – Engineered a MERN stack hiring portal with UIC Shibboleth integration, boosting performance by 30%.",
   },
   {
     id: 4,
@@ -32,7 +32,7 @@ const Data = [
     icon: "icon-briefcase",
     year: "Feb 2024 – Jul 2024",
     title: "Full Stack Developer - Graduate Hourly",
-    desc: "Designed a Records Management Portal with GraphQL, React.js & Redux, cutting report times drastically.",
+    desc: "University of Illinois, Chicago – Designed a Records Management Portal with GraphQL, React.js & Redux, cutting report times drastically.",
   },
   {
     id: 5,
