@@ -1,28 +1,31 @@
 //src/components/services/Services.jsx
 import React from "react";
 import "./services.css";
-import Image1 from "../../assets/service-1.svg";
-import Image2 from "../../assets/service-2.svg";
-import Image3 from "../../assets/service-3.svg";
+//import Image1 from "../../assets/service-1.svg";
+//import Image2 from "../../assets/service-2.svg";
+//import Image3 from "../../assets/service-3.svg";
+import fullStack from "../../assets/fullStack.png";
+import api from "../../assets/api.png";
+import yt from "../../assets/yt.png";
 
 const data = [
   {
     id: 1,
-    image: Image1,
+    image: fullStack,
     title: "Full Stack Development",
     description:
       "Designing and developing robust web applications using modern technologies like React.js and Node.js to ensure performance and scalability.",
   },
   {
     id: 2,
-    image: Image2,
+    image: api,
     title: "API Integration & Automation",
     description:
       "Creating secure and efficient API solutions, including MuleSoft integrations, to streamline business processes and improve system interoperability.",
   },
   {
     id: 3,
-    image: Image3,
+    image: yt,
     title: "Creative Design & Thumbnails",
     description:
       "Crafting engaging YouTube thumbnails and visual designs that capture attention and elevate brand presence.",
